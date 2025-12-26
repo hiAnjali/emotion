@@ -1,4 +1,4 @@
-# 😊 Emotion Detection from Text (2024)
+# 😊 Emotion Detection from Text 
 
 This project focuses on detecting and classifying human emotions from textual data using machine learning.  
 The trained model is deployed as a **Flask API** and integrated into a **Flutter mobile application** for real-time emotion prediction.
