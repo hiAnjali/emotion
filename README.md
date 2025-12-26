@@ -1,16 +1,46 @@
-# emotion
+# 😊 Emotion Detection from Text (2024)
 
-A new Flutter project.
+This project focuses on detecting and classifying human emotions from textual data using machine learning.  
+The trained model is deployed as a **Flask API** and integrated into a **Flutter mobile application** for real-time emotion prediction.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📊 **Emotion Classification**
+  - Classifies emotions such as **joy, sadness, anger, fear, surprise**, etc.
+  - Uses classical machine learning techniques for efficient performance
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🧠 **Machine Learning Model**
+  - Text feature extraction using **TF-IDF Vectorization**
+  - Emotion classification using **Logistic Regression**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🌐 **Flask API Deployment**
+  - Model served via RESTful API
+  - Accepts text input and returns predicted emotion
+
+- 📱 **Flutter Mobile App**
+  - Clean and responsive UI
+  - Real-time emotion prediction from user input text
+  - Communicates with Flask backend using HTTP requests
+
+---
+
+## 🛠 Tech Stack
+
+**Machine Learning**
+- Python
+- Scikit-learn
+- TF-IDF Vectorizer
+- Logistic Regression
+
+**Backend**
+- Flask
+- REST API
+
+**Frontend (Mobile App)**
+- Flutter
+- Dart
+
+
+
